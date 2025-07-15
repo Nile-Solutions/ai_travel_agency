@@ -1,0 +1,5 @@
+npm install -g pm2
+
+pm2 -v
+ 
+pm2 start "C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js" --name "ai-travel-agency" -- run start
